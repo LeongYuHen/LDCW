@@ -30,7 +30,7 @@ int main() {
             string name;
             cout << "🧑 Please enter your name: ";
             cin.ignore();
-            getline(cin, name);
+            getline(cin, name)
 
             int ledBulbs = getPositiveIntInput("💡 How many LED bulbs do you use? ");
             int acHours = getPositiveIntInput("❄️  How many hours/day do you use air conditioning? ");
