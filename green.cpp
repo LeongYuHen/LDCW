@@ -39,7 +39,7 @@ int main() {
             int kmPerDay = getPositiveIntInput("🛣️  On average, how many km/day do you drive? ");
 
             // Calculations
-            double lightSavings = calculateLightingSavings(ledBulbs);
+            double lightSavings = calculateLightingSavings(ledBulbs)
             double acUsage = calculateACUsage(acHours);
             double applianceSavings = calculateApplianceSavings(useSmartPlug);
             double transportCO2 = calculateTransportEmissions(useEV, kmPerDay);
