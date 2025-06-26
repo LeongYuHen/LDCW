@@ -58,7 +58,7 @@ int main() {
             cout << "🌿 Total CO₂ reduced:            " << totalCO2Reduced << " tons/month\n";
             cout << "⚡ Net monthly energy usage:     " << totalEnergyUsed << " kWh\n";
             cout << "✅ Done! Press [Enter] to return to the menu...\n";
-            cin.ignore()
+            cin.ignore();
             cin.get();
 
         } else if (choice == 2) {
