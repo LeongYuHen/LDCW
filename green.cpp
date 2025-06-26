@@ -69,7 +69,7 @@ int main() {
 
         } else if (choice == 3) {
             cout << "\n👋 Exiting the program. Thank you for contributing to a smarter planet!\n";
-            break;
+            break
         }
     }
 
