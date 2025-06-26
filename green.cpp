@@ -145,7 +145,7 @@ double calculateTransportEmissions(bool useEV, int kmPerDay) {
     double emissionPerKm = useEV ? 0.04 : 0.18;
     return emissionPerKm * kmPerDay * 30;
 }
-
+ 
 void displayEnergyTips() {
     cout << "\n💡 === Smart Living Tips === 💡\n";
     cout << "🌱 Switch to LED lighting to cut energy waste.\n";
